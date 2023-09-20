@@ -1,0 +1,44 @@
+.body {
+    background-color: #fafafa
+}
+
+.nav-container {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
+
+@media (min-width:200px) and (max-width:1200px){
+
+    .nav-container {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+    
+}
+
+.nav-principal {
+    background-color: white !important;
+    height: 20%;
+    border-top: 0.6px solid #dbdbdb;
+    border-bottom: 1px solid ack;
+}
+
+.img-nav {
+    border-radius: 100%;
+    max-width: 12.5%!important;
+    max-height: 10%!important;
+}
+
+/*Icones*/
+.icons {
+    padding: 4% !important;
+    font-size: 90%;
+}
+
+.form-control {
+    border-radius: 0.14rem !important;
+    padding: 0% !important;
+    background-color: #fafafa !important;
+    text-align: center;
+    font-size: 99% !important;
+}
