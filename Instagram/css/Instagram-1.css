@@ -7,11 +7,17 @@
     padding-right: 20% !important;
 }
 
-@media (min-width:200px) and (max-width:1200px){
+@media (min-width:200px) and (max-width: 1200px){
 
     .nav-container {
         padding-left: 2% !important;
         padding-right: 2% !important;
+    }
+    .canvas{
+        margin-left: 10% !important;
+    }
+    .stories{
+        margin-left: 16.5% !important;
     }
     
 }
@@ -46,7 +52,8 @@
 .img-perfil{
     border-radius: 50px;
     max-width: 100px;
-    max-height: 150px;
+    max-height: 150
+    px;
 }
 
 .principal{
@@ -61,5 +68,27 @@
 }
 
 .perfil-dados{
-    font-size: 12px;
+    font-size: 10px;
 }
+
+.stories{
+    text-align: center !important;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+  
+
+ }
+
+.nav-feed{
+    border-bottom: none !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+
+.card{
+    border: 0px solid rgba(0, 0, 0, .125) !important;
+    border-radius: .0rem !important;
+}
+

@@ -85,9 +85,9 @@
                     <div class="col-12">
                         <p style="font-size: 10px;">
                             <strong>Senac Tocantins</strong> <br>
-                            Educação de profissional você encontra aqui <br>
-                            #vemserSenac #senacto Whatsapp:(63)99202-0384 <br>
-                            Acesse nossos links<br>
+                            Educação de profissional você encontra aqui 📚 <br>
+                            #vemserSenac #senacto ☎️Whatsapp:(63)99202-0384⭐ <br>
+                            Acesse nossos links⤵️<br>
                             <a style="text-decoration: none;" href="https://linktr.ee/senactocantins">linktr.ee</a>
                         </p>
                     </div>
@@ -95,46 +95,109 @@
             </div>
             <div class="col-2"></div>
         </section>
-         <!-- Destaques -->
-         <section>
+        <!-- Destaques -->
+        <section style="padding-top: 0%;">
+                <div class="row">
+                    <div class="col-2 canvas"><canvas id="myCrl"></canvas></div>
+                    <div class="col-2 canvas"><canvas id="myCrl1"></canvas></div>
+                    <div class="col-2 canvas"><canvas id="myCrl2"></canvas></div>
+                    <div class="col-6"></div>
 
-         </section>
-         <hr>
-        <!-- Publicações -->
-        <section>
-<!-- Card -->
+                </div>
+            <div style="padding-bottom: 40px;">
+                <div class="row">
+                    <div class="col-2 stories">Taquaralto</div>
+                    <div class="col-2 stories">Gurupi</div>
+                    <div class="col-2 stories">Palmas</div>
+                    <div class="col-6"></div>
+                </div>
+            </div>
+
+            <hr>
+            <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> PUBLICAÇÕES</a>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i> MARCADOS</a>
+                </li>
+            </ul>
         </section>
 
+        <!-- Publicações -->
 
-        <section class="row" width="120px">
-            <div class="col-sm-4">
-                <img src="IMG/post1.jpg">
+        <section>
+            <div class="row">
+                <div class="card col-4">
+                    <img src="IMG/post1.jpg">
+                </div>
+                <div class="card col-4">
+                    <img src="IMG/post2.jpg">
+                </div>
+                <div class="card col-4">
+                    <img src="IMG/post3.jpg">
+                </div>
             </div>
-            <div class="col-sm-4">
-                <img src="IMG/post2.jpg">
+            <div class="row">
+                <div class="card col-4">
+                    <img src="IMG/post4.jpg">
+                </div>
+                <div class="card col-4">
+                    <img src="IMG/post5.jpg">
+                </div>
+                <div class="card col-4">
+                    <img src="IMG/post6.jpg">
+                </div>
             </div>
-            <div class="col-sm-4">
-                <img src="IMG/post3.jpg">
+            <div class="row">
+                <div class="card col-4">
+                    <img src="IMG/post7.jpg">
+                </div>
+                
             </div>
-            <div class="col-sm-4">
-                <img src="img/post4.jpg">
-            </div>
-            <div class="col-sm-4">
-                <img src="img/post5.jpg">
-            </div>
-            <div class="col-sm-4">
-                <img src="img/post6.jpg">
-            </div>
-            <div class="col-sm-4">
-                <img src="img/post7.jpg">
-            </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                crossorigin="anonymous"></script>
+
+        </section>
     </main>
     <footer>
 
     </footer>
+    <script type="text/javascript">
+
+        var crl = document.getElementById('myCrl').getContext('2d');
+
+        crl.beginPath();
+        crl.arc(60, 100, 40, 0, 2 * Math.PI);
+        crl.fillStyle = '#00ACC1';
+        crl.fill();
+        crl.linewidth = 5;
+        crl.strokeStyle = '#dbdbdb';
+        crl.stroke();
+
+        var crl1 = document.getElementById('myCrl1').getContext('2d');
+
+        crl1.beginPath();
+        crl1.arc(60, 100, 40, 0, 2 * Math.PI);
+        crl1.fillStyle = '#f8bbd0';
+        crl1.fill();
+        crl1.linewidth = 5;
+        crl1.strokeStyle = '#dbdbdb';
+        crl1.stroke();
+        var crl2 = document.getElementById('myCrl2').getContext('2d');
+
+        crl2.beginPath();
+        crl2.arc(60, 100, 40, 0, 2 * Math.PI);
+        crl2.fillStyle = '#E91E63';
+        crl2.fill();
+        crl2.linewidth = 5;
+        crl2.strokeStyle = '#dbdbdb';
+        crl2.stroke();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
