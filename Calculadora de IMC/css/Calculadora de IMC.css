@@ -1,0 +1,24 @@
+header {
+    background-color: #fc64ff !important;
+    color: white
+}
+
+.texto {
+    text-align: center;
+    padding: 2em;
+}
+
+.body {
+    background-color: #ffe9ff
+}
+
+.IMC {
+text-align: center;
+color: black;
+
+
+}
+
+.container-fluid{
+    background-color: #fc64ff !important;
+}
