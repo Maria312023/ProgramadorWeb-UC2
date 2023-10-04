@@ -22,3 +22,11 @@ color: black;
 .container-fluid{
     background-color: #fc64ff !important;
 }
+
+.botao{
+    color: black !important;
+    border-color: white !important;
+    background-color: white;
+}
+
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5A</title>
+
+</head>
+<body>
+    <h2>Imprima de 1 a 200</h2>
+    <p id="txt"></p>
+</body>
+<script>
+    var texto = ""
+    for (var cont = 1; cont <= 200; cont++) {
+        texto = texto + "O número é:" + cont + "<br>"
+    }
+
+    document.getElementById("txt").innerHTML = texto;
+</script>
+</html>
