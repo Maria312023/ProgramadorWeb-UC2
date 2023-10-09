@@ -46,13 +46,16 @@
         </section>
         <section>
             <div style="text-align: center;">
-                <form class="IMC">
-                    <label for="peso"><b>Peso</b></label>
-                    <input type="text"><br><br>
-                    <label for="altura"><b>Altura</b></label>
-                    <input type="text"><br><br>
+                <form>
+                    <label><b>Peso</b></label>
+                    <input type="number" id="peso" value="0"><br><br>
+                    <label><b>Altura</b></label>
+                    <input type="number" id="altura" value="0" /><br><br>
                 </form>
-                <button class="botao" onclick="calcular()">Calcular IMC</button><br><br>
+            
+                <button class="botao" onclick="calcular()"><b>CALCULAR IMC</b></button><br><br>
+                <p id="txt"> </p>
+                <p id="msg"></p>
             </div>
 
         </section>
@@ -63,5 +66,5 @@
         <h6>&COPY;2023 - DESENVOLVIDO POR MARIA JOSÉ ARAÚJO</h6>
     </footer>
 </body>
-
+<script src="js/CALCULADORA DE IMC.js"></script>
 </html>
