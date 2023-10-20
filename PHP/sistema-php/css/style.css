@@ -1,0 +1,26 @@
+header {
+    background-color: #4b6d90;
+    padding: 3%;
+    color: white;
+    text-align: center;
+}
+
+.sec-conteudo {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    margin-bottom: 8% !important;
+    margin-top: 10% !important;
+    justify-content: center !important;
+}
+
+.div-item {
+    text-align: center;
+}
+
+footer {
+    background-color: #4b6d90;
+    padding: 5%;
+    color: white;
+    padding: 2% !important;
+    margin-top: 10% !important;
+}
