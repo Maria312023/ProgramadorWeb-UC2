@@ -54,10 +54,23 @@ footer {
     margin-right: 10% !important;
     background-color: rgb(240,248,255);
     color:rgb(135,206,250);
-
 }
 
 #redes{
     background-color: white;
     color: rgb(135,206,250);
+}
+
+#logo{
+    max-height: 40px;
+    border-radius: 100%;
+}
+.nav-menu{
+    color: white !important;
+    background-color:#106efd;
+    margin: 8px;
+    border-radius: 15%;
+}
+.carrossel{
+    background-color:#0274d83d;
 }
